@@ -1,11 +1,19 @@
 This is a small project that contains tests for practical exercise of quandoo.com
 
-Supported operating systems are: **Windows** and **Linux**.
+###Pre-requisites###
+  * Java 8
+  * Maven 3 or greater
 
-Supported browsers are: **Chrome**, **Firefox**.
+###Supported operating systems:###
+  * Windows
+  *Linux
 
-To run tests:
-mvn clean install -Plocal -Dos=windows|linux -Dbrowser=chrome|firefox
+###Supported browsers###
+  *Chrome
+  *Firefox
 
-Run the following command to generate javadoc for test classes:
-mvn javadoc:test-javadoc
+###Hot to run###
+`mvn clean install -Plocal -Dos=windows|linux -Dbrowser=chrome|firefox`
+
+###Generate javadoc for test classes###
+`mvn javadoc:test-javadoc`
