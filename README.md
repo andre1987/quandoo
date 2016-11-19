@@ -6,11 +6,11 @@ This is a small project that contains tests for practical exercise of quandoo.co
 
 ###Supported operating systems:###
   * Windows
-  *Linux
+  * Linux
 
 ###Supported browsers###
-  *Chrome
-  *Firefox
+  * Chrome
+  * Firefox
 
 ###Hot to run###
 `mvn clean install -Plocal -Dos=windows|linux -Dbrowser=chrome|firefox`
