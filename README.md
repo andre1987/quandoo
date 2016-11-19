@@ -15,5 +15,9 @@ This is a small project that contains tests for practical exercise of quandoo.co
 ###Hot to run###
 `mvn clean install -Plocal -Dos=windows|linux -Dbrowser=chrome|firefox`
 
+###Test report###
+Test report will be automatically generated after run all test and could be found in the:
+`$PROJECT_DIR/target/surefire-reports/junit-noframes.html`
+
 ###Generate javadoc for test classes###
 `mvn javadoc:test-javadoc`
